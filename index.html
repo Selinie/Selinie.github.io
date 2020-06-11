@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Selinie Wang - Resume 2020</title>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+    <link rel="icon" href="./images/mystory.png">
+    <link href='https://fonts.googleapis.com/css?family=Barlow:extra-light, medium, 100, 200' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 9000,
+        })
+    </script>
+    <div class="container">
+        <img class="camera" alt="camera" usemap="#camera" src="./images/Camera.gif">
+        <map name="camera"><area shape="circle" coords="122,219,23" alt="button" href="#down" onclick="revealPolaroid()"></map>
+        <div id="polaroid">
+            <div class="polaroidbox">
+                <div data-aos="fade-down" data-aos-duration="1500">
+                    <a href="About.html">
+                        <img class="pd1" alt="pd1" usemap="#pd1" src="./images/Polaroid-home.gif">
+                    </a>
+                    <map name="pd1"><area shape="rect" coords="90,330,270,368" alt="button2" href="About.html"></map>
+                </div>
+                <div id="down"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function revealPolaroid() {
+            var x = document.getElementById("polaroid");
+            x.style.display = "block";
+        }
+    </script>
+    <script>
+        $("#hulk").click(function() {
+            $("html, body").animate({ scrollTop: $(document).height() }, "slow");  
+        });
+    </script>
+</body>
+</html>

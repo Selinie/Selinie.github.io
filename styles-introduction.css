@@ -1,0 +1,158 @@
+@media only screen and (min-device-width: 500px) {
+
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        background-color: #ddcece;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 35px;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro {
+        width: 700px;
+    }
+
+    .seccon {
+        margin-top: 95px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .thirdcon {
+        width: 700px;
+    }
+
+    .polaroid {
+        width: 220px;
+        height: 300px;
+        background-color: antiquewhite;
+    }
+
+    .skills {
+        width: 220px;
+        margin-bottom: 30px;
+    }
+
+    .backbutton {
+        width: 25px;
+    }
+
+    .scrollbutton {
+        width: 25px;
+        margin-top: 20px;
+    }
+
+    .finalcon {
+        width: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -75px;
+        margin-top: -415px;
+    }
+
+    .contact {
+        width: 175px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        background-color: #ddcece;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 35px;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro {
+        width: 900px;
+    }
+
+    .seccon {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .thirdcon {
+        width: 700px;
+    }
+
+    .polaroid {
+        width: 220px;
+        height: 300px;
+        background-color: antiquewhite;
+    }
+
+    .skills {
+        width: 550px;
+        margin-bottom: 30px;
+        margin-left: 75px;
+    }
+
+    .backbutton {
+        width: 25px;
+    }
+
+    .scrollbutton {
+        width: 25px;
+        margin-top: 20px;
+    }
+
+    .finalcon {
+        width: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -75px;
+        margin-top: -415px;
+        display: none;
+    }
+
+    .contact {
+        width: 400px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .logo {
+        margin-top: 50px;
+        width: 100px;
+        height: 100px;
+    }
+}

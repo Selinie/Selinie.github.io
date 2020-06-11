@@ -1,0 +1,212 @@
+@media only screen and (min-device-width: 500px) {
+
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        background-color: #ddcece;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 35px;
+        width: 800px;
+        height: 500px;
+    }
+
+    .imagewidth {
+        width: 375px;
+        margin-right: 50px;
+    }
+
+    .spacing {
+        width: 375px;
+        height: 310px;
+    }
+
+    .imagewidth1 {
+        width: 375px;
+        height: 513px;
+        margin-right: 50px;
+        background: url("./images/project-rabbits.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .imagewidth2 {
+        width: 375px;
+        height: 513px;
+        margin-right: 50px;
+        background: url("./images/project-reciplz.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .imagewidth3 {
+        width: 375px;
+        height: 513px;
+        margin-right: 50px;
+        background: url("./images/project-archef.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .imagewidth4 {
+        width: 375px;
+        height: 513px;
+        margin-right: 50px;
+        background: url("./images/projects-wafoodwa.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .container3 {
+        margin-top: 130px;
+        width: 188px;
+        text-align: right;
+    }
+
+    .scroll {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .qrcode {
+        margin-top: -35px;
+        margin-left: 230px;
+        width: 85px;
+        z-index: 100;
+        position: relative;
+    }
+
+    .backbutton {
+        width: 25px;
+    }
+
+    .scrollbutton {
+        width: 25px;
+        margin-top: 20px;
+    }
+
+    .finalcon {
+        width: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -75px;
+        margin-top: -460px;
+    }
+
+    .yt {
+        margin-top: -10px;
+        width:300px;
+        height:165px;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        background-color: #ddcece;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 35px;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagewidth {
+        width: 375px;
+        margin-right: 50px;
+    }
+
+    .spacing {
+        width: 375px;
+        height: 600px;
+    }
+
+    .imagewidth1 {
+        width: 700px;
+        height: 958px;
+        background: url("./images/project-rabbits.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .imagewidth2 {
+        width: 700px;
+        height: 958px;
+        background: url("./images/project-reciplz.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .imagewidth3 {
+        width: 700px;
+        height: 958px;
+        background: url("./images/project-archef.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .imagewidth4 {
+        width: 700px;
+        height: 958px;
+        background: url("./images/projects-wafoodwa.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .container3 {
+        margin-top: 130px;
+        width: 188px;
+        text-align: right;
+        display: none;
+    }
+
+    .qrcode {
+        margin-top: -35px;
+        margin-left: 520px;
+        width: 100px;
+        z-index: 100;
+        position: relative;
+    }
+
+    .backbutton {
+        width: 25px;
+    }
+
+    .scrollbutton {
+        width: 25px;
+        margin-top: 20px;
+    }
+
+    .finalcon {
+        width: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -75px;
+        margin-top: -460px;
+        display: none;
+    }
+
+    .yt {
+        width: 575px;
+        height: 250px;
+    }
+}

@@ -1,0 +1,126 @@
+@media only screen and (min-device-width: 500px) {
+
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        /*background-image: url(./images/Background.gif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 0% 60%;*/
+        background-color: #ddcece;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*
+    .bigcontainer {
+        background-color: #ddcece;
+        width: 1100px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    */
+
+    .container {
+        width: 800px;
+    }
+
+    .navigation {
+        margin-top: -10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navwidth1 {
+        width: 230px;
+        height: 324px;
+        background: url("./images/nav-about2.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .navwidth1:hover {
+        background: url("./images/nav-about3.png") no-repeat;
+        background-size: contain;
+    }
+
+    .navwidth2 {
+        width: 230px;
+        height: 324px;
+        background: url("./images/nav-projects2.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .navwidth2:hover {
+        background: url("./images/nav-projects3.png") no-repeat;
+        background-size: contain;
+    }
+
+    .navwidth3 {
+        width: 230px;
+    }
+
+    .favorite {
+        width: 750px;
+        margin-top: 50px;
+    }
+
+    .favoritewidth {
+        width: 350px;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        /*background-image: url(./images/Background.gif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 0% 60%;*/
+        background-color: #ddcece;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+
+    .navigation {
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navwidth3 {
+        width: 575px;
+    }
+
+    .favorite {
+        margin-top: 100px;
+        width: 750px;
+    }
+
+    .favoritewidth {
+        width: 825px;
+    }
+
+}

@@ -1,0 +1,165 @@
+@media only screen and (min-device-width: 500px) {
+
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        background-color: #ddcece;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 35px;
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .experiencetext {
+        width: 240px;
+    }
+
+    .spacing {
+        width: 10px;
+        height: 350px;
+    }
+
+    .spacing2 {
+        width: 10px;
+        height: 420px;
+    }
+
+    .experiencetext1 {
+        width: 240px;
+        height: 523px;
+        background: url("./images/experience-internet2.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .experiencetext2 {
+        width: 240px;
+        height: 523px;
+        background: url("./images/experience-fortune.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .experiencetext3 {
+        width: 240px;
+        height: 523px;
+        background: url("./images/experience-freelance.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .money {
+        margin-top: 490px;
+        margin-left: 160px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .backbutton {
+        width: 25px;
+        margin-left: -75px;
+        margin-top: -25px;
+    }
+
+    .yt {
+        width: 200px;
+        height: 125px;
+    }
+
+    .yt2 {
+        width: 200px;
+        height: 90px;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        background-color: #ddcece;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 35px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .spacing {
+        width: 10px;
+        height: 880px;
+    }
+
+    .yt {
+        width: 500px;
+        height: 300px;
+    }
+
+    .yt2 {
+        width: 500px;
+        height: 200px;
+    }
+
+    .spacing2 {
+        width: 10px;
+        height: 1050px;
+    }
+
+    .experiencetext1 {
+        width: 600px;
+        height: 1308px;
+        background: url("./images/experience-internet2.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .experiencetext2 {
+        width: 600px;
+        height: 1308px;
+        background: url("./images/experience-fortune.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+
+    .experiencetext3 {
+        width: 600px;
+        height: 1308px;
+        background: url("./images/experience-freelance.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+        margin-bottom: 200px;
+    }
+
+    .money {
+        margin-top: 490px;
+        margin-left: 160px;
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+
+    .backbutton {
+        width: 25px;
+        margin-left: -75px;
+        margin-top: -25px;
+        display: none;
+    }
+
+}

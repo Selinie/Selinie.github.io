@@ -1,0 +1,111 @@
+@media only screen and (min-device-width: 500px) {
+
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        background-image: url(./images/Background.gif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .camera {
+        width: 550px;
+        height: 550px;
+        z-index: 1;
+    }
+
+    .button {
+        width: 60px;
+        height: 60px;
+        margin-left: 457px;
+        margin-top: -109px;
+    }
+
+    #polaroid {
+        display: none;
+    }
+
+    .polaroidbox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pd1 {
+        width: 275px;
+        margin-top: -70px;
+        margin-bottom: 50px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .item {
+        margin: 12px auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+    body {
+        font-family: "Barlow";
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        background-image: url(./images/Background.gif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 0% 60%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .camera {
+        width: 800px;
+        height: 800px;
+        z-index: 1;
+    }
+
+    .polaroidbox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pd1 {
+        width: 400px;
+        margin-top: -70px;
+        margin-bottom: 50px;
+        
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .item {
+        margin: 12px auto;
+        text-align: center;
+    }
+
+}
